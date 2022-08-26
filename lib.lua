@@ -1191,7 +1191,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                 Position = UDim2.new(0.5, 0, 0.5, 20),
                 ZIndex = 3,
                 Size = UDim2.new(0, 100, 0, 100),
-                Image = IntroIcon,
+                Image = getsynasset(IntroIcon),
                 ScaleType = 'Fit'
             })
         }),
