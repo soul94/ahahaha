@@ -1,6 +1,6 @@
 local Library = {}
 -- Random UI Name
-local LibraryName = tostring(math.random(100000,200000))..tostring(math.random(100000,200000))..tostring(math.random(100000,200000))
+local LibraryName = tostring(math.random(100000,200000))..tostring(math.random(100000,200000))
 
 function Library:Toggle()
     if game:GetService("CoreGui"):FindFirstChild(LibraryName).Enabled then 
