@@ -77,7 +77,7 @@ function Library:Create(xHubName,xGameName)
     ScreenGui.Parent = game:GetService("CoreGui")
     ScreenGui.ResetOnSpawn = false
     ScreenGui.Name = LibraryName
-    (syn and syn.protect_gui or function(x) return x end)(ScreenGui)
+    (syn and syn.protect_gui)(ScreenGui)
 	
     Main.Name = "Main"
     Main.Parent = ScreenGui
